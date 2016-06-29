@@ -1,0 +1,42 @@
+{
+  "name": "meteor-mocks",
+  "version": "1.0.0",
+  "description": "Simple sinon stubbed mocks for Meteor templates, collections, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel lib --ignore tests --out-dir ./dist",
+    "compile:watch": "npm run compile -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astrocoders/meteor-mocks.git"
+  },
+  "keywords": [
+    "meteor",
+    "mocks",
+    "sinon",
+    "unit",
+    "testing"
+  ],
+  "author": "Astrocoders <astrocoders.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astrocoders/meteor-mocks/issues"
+  },
+  "homepage": "https://github.com/Astrocoders/meteor-mocks#readme",
+  "peerDependencies": {
+    "sinon": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-plugin-syntax-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.0",
+    "babel-preset-stage-3": "^6.11.0"
+  }
+}
