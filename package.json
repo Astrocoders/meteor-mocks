@@ -1,0 +1,29 @@
+{
+  "name": "meteor-mocks",
+  "version": "1.0.0",
+  "description": "Simple sinon stubbed mocks for Meteor templates, collections, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astrocoders/meteor-mocks.git"
+  },
+  "keywords": [
+    "meteor",
+    "mocks",
+    "sinon",
+    "unit",
+    "testing"
+  ],
+  "author": "Astrocoders <astrocoders.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astrocoders/meteor-mocks/issues"
+  },
+  "homepage": "https://github.com/Astrocoders/meteor-mocks#readme",
+  "peerDependencies": {
+    "sinon": "^1.17.4"
+  }
+}
